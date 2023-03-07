@@ -4,7 +4,7 @@ int main()
 	int i,j,k,row,space;
 	printf("\n Enter number of row : ");
 	scanf("%d",&row);
-	space =row -1;
+	space = row -1;
 	for(i=1;i<=row;i++)
 	{
 		for(j=row-1;j>=i;j--)
